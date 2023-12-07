@@ -60,6 +60,7 @@ header {
     height: 80%;
     outline: none;
     font-size: large;
+    border: none;
 }
 
 .tres_icones {
@@ -115,16 +116,43 @@ nav p:hover {
 /* NavBar */
 
 
+#textos_inicio_container_cursos{
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: solid 2px #acacac;
+}
+
+
+#textos_inicio_container_cursos h2 {
+    color: #454545;
+}
+#textos_inicio_container_cursos h2, p{
+    margin-left: 10%;
+}
+
+#textos_inicio_container_cursos p{
+    font-size: 18px;
+    color: #3a3c3fd7;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+
 .content-container {
     display: flex;
     max-width: 1200px;
     margin: 20px auto;
+    height: 50vh;
 }
 
 .video-player {
     flex: 1;
     padding: 20px;
-    background-color: #75c78c;
+    /* background-color: #75c78c; */
+    
 }
 
 iframe {
@@ -134,26 +162,33 @@ iframe {
 
 .episode-list {
     flex: 1;
-    padding: 20px;
-    background-color: #75c78c;
+    /* background-color: #75c78c; */
+    border: solid 1px #acacac;
 }
 
-h2 {
-    color: white;
+.episode-list h2 {
+    color:#f7f7f7;
     font-size: 24px;
+    margin-top: 0;
     margin-bottom: 10px;
+    background-color: #acacac;
+    padding: 20px;
+
 }
 
 ul {
+    
     list-style: none;
     padding: 0;
 }
 
 li a {
-    text-decoration: none;
-    color: white;
+    border-bottom: solid 2px #acacac;
+    padding: 20px;
+    color: #404143;
     display: block;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 /* Footer */

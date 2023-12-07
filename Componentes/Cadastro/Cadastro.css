@@ -40,22 +40,13 @@ header{
 }
 
 .logo{
-    width: 16%;
-    font-size: xx-large;
+    width: 15%;
+    font-size: large;
     margin-top: 5px;
-    text-decoration: none;
     margin-bottom: 5px;
     display: flex;
     justify-content: flex-end;
-}
 
-.logo a{
-    text-decoration: none;
-    color: #1C1D1F;
-}
-
-.logo span{
-    color: #75c78c;
 }
 
 .logo2 {

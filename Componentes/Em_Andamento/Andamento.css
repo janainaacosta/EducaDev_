@@ -130,6 +130,28 @@ nav p:hover{
     background-color: rgba(0, 0, 0, 0.826);
 }
 
+#textos_inicio_container_cursos{
+    float: left;
+    text-align: left;
+    width: 90%;
+    border-bottom: solid 2px #acacac;
+
+}
+
+
+#textos_inicio_container_cursos h2 {
+    color: #454545;
+}
+
+#textos_inicio_container_cursos p{
+    width:70%;
+    font-size: 18px;
+    color: #3a3c3fd7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 
 .conteudo_sobre{
     display: flex;
@@ -186,7 +208,7 @@ h1 {
 }
 
 
-.container_cards, #titulo-section{
+.container_cards{
     margin-left: 5%;
 }
 
